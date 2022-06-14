@@ -4,7 +4,9 @@ header {
   height: 70px;
   border-bottom: 1px solid black;
   width: 100%;
-  position: relative;
+  position: fixed;
+  top: 0;
+  background-color: white;
 }
 
 a {
