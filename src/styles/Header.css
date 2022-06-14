@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.logo_eart {
+    width: 30px;
+    height: auto;
+}
