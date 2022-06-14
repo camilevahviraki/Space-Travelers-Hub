@@ -1,11 +1,11 @@
 .rocket {
-   width: 25vw;
-   height: auto;
-   margin-right: 20px;
+  width: 25vw;
+  height: auto;
+  margin-right: 20px;
 }
 
 .rocket_container {
-    display: flex;
-    width: 90Vw;
-    margin: 5vw;
+  display: flex;
+  width: 90vw;
+  margin: 5vw;
 }
