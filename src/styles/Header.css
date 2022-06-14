@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.logo_eart {
+    width: 30px;
+    height: auto;
+}
+
+.reserverd_R {
+    background-color: blue;
+    padding: 3px;
+    border-radius: 3px;
+    color: white;
+}
