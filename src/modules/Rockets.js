@@ -40,6 +40,7 @@ function Rockets({ UpdatedRockets, getRockets }) {
     border: '1px solid grey',
     padding: '10px',
     borderRadius: '5px',
+    fontWeight: '700',
   };
 
   return (

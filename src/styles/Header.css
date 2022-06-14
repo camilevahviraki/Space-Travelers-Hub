@@ -4,6 +4,7 @@ header {
   height: 70px;
   border-bottom: 1px solid black;
   width: 100%;
+  position: relative;
 }
 
 a {
@@ -12,13 +13,13 @@ a {
 }
 
 .logo_eart {
-  width: 30px;
+  width: 40px;
   height: auto;
+  margin-left: 5%;
+  margin-right: 30px;
 }
 
-.reserverd_R {
-  background-color: blue;
-  padding: 3px;
-  border-radius: 3px;
-  color: white;
+nav {
+  position: absolute;
+  right: 5vw;
 }
