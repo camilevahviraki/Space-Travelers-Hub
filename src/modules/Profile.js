@@ -14,7 +14,7 @@ function Profile(props) {
   return (
     <div className="profile">
       <div className="banner">
-        <h3>Missions</h3>
+        <h3>My Missions</h3>
         <div>
           { profileMissions.map((mission) => (
             <p key={mission.Missions[0]}>{mission.Missions[1].mission_name}</p>
@@ -23,7 +23,7 @@ function Profile(props) {
       </div>
 
       <div className="banner">
-        <h3>Rockets</h3>
+        <h3>My Rockets</h3>
         <div>
           { profileRockets.map((rocket) => (
             <p key={rocket.rocket[0]}>{rocket.rocket[1].rocket_name}</p>
