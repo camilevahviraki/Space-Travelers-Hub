@@ -23,14 +23,6 @@ p {
   line-height: 30px;
 }
 
-.profile {
-  margin-top: 70px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 70vw;
-  margin-left: 15vw;
-}
-
 .rocket_page {
   margin-top: 100px;
 }
