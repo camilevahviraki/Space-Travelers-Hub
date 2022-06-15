@@ -10,8 +10,8 @@ export default function MissionsReducer(state = { newMissions: [], profileMissio
       if (state.newMissions.length === 0) {
         let newMissions = [];
 
-        action.newState.forEach((Missions) => {
-          newMissions = [...newMissions, { Missions, reserved: false, btn: 'Not a Member' }];
+        action.newState.forEach((Mission) => {
+          newMissions = [...newMissions, { Mission, reserved: false, btn: 'Not a Member' }];
           state = newMissions;
         });
 
