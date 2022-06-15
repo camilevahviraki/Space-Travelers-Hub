@@ -44,7 +44,7 @@ function Rockets({ UpdatedRockets, getRockets }) {
   };
 
   return (
-    <div>
+    <div className="rocket_page">
       {
         Rockets.map((spacexdata) => (
           <div key={spacexdata.rocket[0]} className="rocket_container">

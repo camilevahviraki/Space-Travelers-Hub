@@ -9,8 +9,9 @@ export default function MissionsReducer(state = { newMissions: [], profileMissio
     case GET_MISSIONS: {
       if (state.newMissions.length === 0) {
         let newMissions = [];
-        action.newState.forEach((Mission) => {
-          newMissions = [...newMissions, { Mission, reserved: false }];
+
+        action.newState.forEach((Missions) => {
+          newMissions = [...newMissions, { Missions, reserved: false, btn: 'Not a Member' }];
           state = newMissions;
         });
 
@@ -21,6 +22,11 @@ export default function MissionsReducer(state = { newMissions: [], profileMissio
       state.newMissions.forEach((SpaceXMission) => {
         if (SpaceXMission.Missions[0] === action.Id) {
           SpaceXMission.reserved = !SpaceXMission.reserved;
+          if (SpaceXMission.btn === 'Not a Member') {
+            SpaceXMission.btn = 'Active Member';
+          } else {
+            SpaceXMission.btn = 'Not a Member';
+          }
         }
       });
 

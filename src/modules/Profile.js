@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
+import '../styles/profile.css';
 
 function Profile(props) {
   const [profileRockets, setProfileRockets] = useState([]);
@@ -12,19 +13,22 @@ function Profile(props) {
 
   return (
     <div className="profile">
-
-      <div>
+      <div className="banner">
         <h3>Missions</h3>
-        { profileMissions.map((mission) => (
-          <p key={mission.Missions[0]}>{mission.Missions[1].mission_name}</p>
-        )) }
+        <div>
+          { profileMissions.map((mission) => (
+            <p key={mission.Missions[0]}>{mission.Missions[1].mission_name}</p>
+          )) }
+        </div>
       </div>
 
-      <div>
+      <div className="banner">
         <h3>Rockets</h3>
-        { profileRockets.map((rocket) => (
-          <p key={rocket.rocket[0]}>{rocket.rocket[1].rocket_name}</p>
-        )) }
+        <div>
+          { profileRockets.map((rocket) => (
+            <p key={rocket.rocket[0]}>{rocket.rocket[1].rocket_name}</p>
+          )) }
+        </div>
       </div>
     </div>
   );
