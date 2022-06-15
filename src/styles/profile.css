@@ -1,6 +1,6 @@
 .banner div p{
     margin: 0;
-    border: 1px solid black;
+    border: 1px solid grey;
     border-bottom: none;
     padding: 15px;
 }
@@ -18,5 +18,5 @@
   }
 
 .banner div {
-    border-bottom: 1px solid  black;
+    border-bottom: 1px solid  grey;
 }
