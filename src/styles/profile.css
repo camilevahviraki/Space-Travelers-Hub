@@ -1,0 +1,17 @@
+.banner div p{
+    margin: 0;
+    border: 1px solid black;
+    border-bottom: none;
+    padding: 15px;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    gap: 10%;
+}
+
+.banner div {
+    border-bottom: 1px solid  black;
+}

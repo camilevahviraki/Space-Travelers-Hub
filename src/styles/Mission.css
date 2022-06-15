@@ -10,9 +10,16 @@ tr {
     grid-template-columns: 1fr 7fr 1.2fr 1.2fr;
     gap: 10px;
     border: 1px solid black;
+    border-bottom: none;
 }
 
 th {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+td {
     display: flex;
     align-items: center;
     padding: 10px;
@@ -42,7 +49,7 @@ th {
     border-radius: 3px;
     padding: 8px;
     background-color: white;
-    color: grey;
+    color: rgb(78, 78, 78);
     font-weight: 700;
 }
 
@@ -54,8 +61,12 @@ th {
 }
 
 .status2 {
-    background-color: grey;
+    background-color: rgb(100, 100, 100);
     border-radius: 3px;
     padding: 3px;
     color: white;
+}
+
+.desc_head {
+    font-weight: 700;
 }
