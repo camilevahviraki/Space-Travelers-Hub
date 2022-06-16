@@ -4,16 +4,19 @@ header {
   height: 70px;
   border-bottom: 1px solid black;
   width: 100%;
-  position: relative;
+  position: fixed;
+  top: 0;
+  background-color: white;
 }
 
 a {
   margin: 10px;
   text-decoration: none;
+  color: rgb(5, 58, 170);
 }
 
 .logo_eart {
-  width: 40px;
+  width: 50px;
   height: auto;
   margin-left: 5%;
   margin-right: 30px;
