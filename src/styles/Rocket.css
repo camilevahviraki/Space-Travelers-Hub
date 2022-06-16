@@ -1,0 +1,28 @@
+.rocket {
+  width: 25%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.rocket_container {
+  display: flex;
+  width: 90vw;
+  margin: 5vw;
+}
+
+.reserverd_R {
+  margin-right: 10px;
+  font-weight: 700;
+  background-color: rgb(0, 174, 255);
+  padding: 2px;
+  border-radius: 3px;
+  color: white;
+}
+
+p {
+  line-height: 30px;
+}
+
+.rocket_page {
+  margin-top: 100px;
+}
