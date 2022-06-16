@@ -1,0 +1,72 @@
+table {
+  margin-top: 100px;
+  width: 90%;
+  display: grid;
+  margin-left: 5%;
+}
+
+tr {
+  display: grid;
+  grid-template-columns: 1fr 7fr 1.2fr 1.2fr;
+  gap: 10px;
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+th {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+td {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.th_desc {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.th_button {
+  border-right: 1px solid black;
+}
+
+.button_Leave {
+  border: 1px solid rgb(189, 43, 43);
+  border-radius: 3px;
+  padding: 8px;
+  background-color: white;
+  color: rgb(189, 43, 43);
+}
+
+.button_Join {
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 8px;
+  background-color: white;
+  color: rgb(78, 78, 78);
+  font-weight: 700;
+}
+
+.status1 {
+  background-color: rgb(0, 140, 255);
+  border-radius: 3px;
+  padding: 3px;
+  color: white;
+}
+
+.status2 {
+  background-color: rgb(100, 100, 100);
+  border-radius: 3px;
+  padding: 3px;
+  color: white;
+}
+
+.desc_head {
+  font-weight: 700;
+}
