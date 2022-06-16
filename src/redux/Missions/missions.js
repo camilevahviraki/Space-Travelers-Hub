@@ -1,10 +1,14 @@
+/* eslint-disable */
 import axios from 'axios';
 
 const MISSIONS_URL = 'https://api.spacexdata.com/v3/missions';
 const GET_MISSIONS = 'space-traveler-hub/src/redux/GET_MISSIONS';
 const RESERVED_MISSIONS = 'space-traveler-hub/src/redux/RESERVED_MISSIONS';
 
-export default function MissionsReducer(state = { newMissions: [], profileMissions: [] }, action) {
+export default function MissionsReducer(
+  state = { newMissions: [], profileMissions: [] },
+  action
+) {
   switch (action.type) {
     case GET_MISSIONS: {
       if (state.newMissions.length === 0) {
@@ -15,7 +19,8 @@ export default function MissionsReducer(state = { newMissions: [], profileMissio
         });
 
         return { newMissions, profileMissions: [] };
-      } return state;
+      }
+      return state;
     }
     case RESERVED_MISSIONS: {
       state.newMissions.forEach((SpaceXMission) => {
@@ -24,7 +29,9 @@ export default function MissionsReducer(state = { newMissions: [], profileMissio
         }
       });
 
-      const profileMissions = state.newMissions.filter((Mission) => Mission.reserved === true);
+      const profileMissions = state.newMissions.filter(
+        (Mission) => Mission.reserved === true
+      );
 
       return { newMissions: state.newMissions, profileMissions };
     }
@@ -37,11 +44,9 @@ export const reserveMission = (Id) => ({ type: RESERVED_MISSIONS, Id });
 
 export function displayMissions() {
   return (dispatch) => {
-    axios.get(MISSIONS_URL).then(
-      (response) => {
-        const newState = Object.entries(response.data);
-        dispatch({ type: GET_MISSIONS, newState });
-      },
-    );
+    axios.get(MISSIONS_URL).then((response) => {
+      const newState = Object.entries(response.data);
+      dispatch({ type: GET_MISSIONS, newState });
+    });
   };
 }
