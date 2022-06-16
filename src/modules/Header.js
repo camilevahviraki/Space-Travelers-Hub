@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import planet from '../images/planet.png';
 import '../styles/Header.css';
 
- /* eslint-disable */
+/* eslint-disable */
 export default class Header extends Component {
   state = {
     rocket: true,

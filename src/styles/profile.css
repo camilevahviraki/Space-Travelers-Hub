@@ -1,22 +1,22 @@
-.banner div p{
-    margin: 0;
-    border: 1px solid grey;
-    border-bottom: none;
-    padding: 15px;
+.banner div p {
+  margin: 0;
+  border: 1px solid grey;
+  border-bottom: none;
+  padding: 15px;
 }
 
 .profile {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 80%;
-    gap: 10%;
-    margin-left: 15%;
-    margin-top: 70px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 70vw;
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  gap: 10%;
+  margin-left: 15%;
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 70vw;
+}
 
 .banner div {
-    border-bottom: 1px solid  grey;
+  border-bottom: 1px solid grey;
 }

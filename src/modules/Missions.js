@@ -3,7 +3,7 @@ import { useSelector, connect, useDispatch } from 'react-redux';
 import { displayMissions, reserveMission } from '../redux/Missions/missions';
 import '../styles/Mission.css';
 
- /* eslint-disable */
+/* eslint-disable */
 function Missions({ getMissions }) {
   useEffect(() => {
     getMissions();
