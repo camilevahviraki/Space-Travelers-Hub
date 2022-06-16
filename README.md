@@ -24,7 +24,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live link
 
-See the [live demo](https://comforting-centaur-317ced.netlify.app/) of my bookstore.
+Feel free to view [the live demo](https://space-travelers-hub-c.netlify.app/) of this app.
 
 
 ## Authors
