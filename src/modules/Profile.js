@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import '../styles/profile.css';
@@ -13,8 +12,8 @@ function Profile(props) {
   }, []);
 
   return (
-    <div className='profile'>
-      <div className='banner'>
+    <div className="profile">
+      <div className="banner">
         <h3>Missions</h3>
         <div>
           {profileMissions.map((mission) => (
@@ -23,7 +22,7 @@ function Profile(props) {
         </div>
       </div>
 
-      <div className='banner'>
+      <div className="banner">
         <h3>Rockets</h3>
         <div>
           {profileRockets.map((rocket) => (
