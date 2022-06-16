@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  border-bottom: 1px solid black;
+  width: 100%;
+  position: relative;
+}
+
+a {
+  margin: 10px;
+  text-decoration: none;
+}
+
+.logo_eart {
+  width: 40px;
+  height: auto;
+  margin-left: 5%;
+  margin-right: 30px;
+}
+
+nav {
+  position: absolute;
+  right: 5vw;
+}
