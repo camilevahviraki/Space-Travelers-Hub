@@ -29,12 +29,17 @@ Feel free to view [the live demo](https://space-travelers-hub-c.netlify.app/) of
 
 ## Authors
 
-👤 **Author1**
+👤 **Camile Vahviraki**
 
 - GitHub: [@camilevahviraki](https://github.com/camilevahviraki)
 - Twitter: [@camilevahviraki](https://twitter.com/CamileVahviraki)
 - LinkedIn: [camilevahviraki](https://www.linkedin.com/in/camile-vahviraki-8180a6232/)
 
+👤 **Gideon Dadi**
+
+- Linkedin [@GideonDadi](www.linkedin.com/in/gideon-akamisoko-dadi)
+- GitHub: [@gids_dadi](https://github.com/gids-dadi)
+- Twitter: [@Dadi_AG](https://twitter.com/Dadi_AG) 
 
 
 ## 🤝 Contributing
