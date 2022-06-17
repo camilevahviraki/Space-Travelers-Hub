@@ -5,7 +5,7 @@
 // import MissionsReducer from '../__Mocks__/missions';
 
 // const rootReducer = combineReducers({
-  // MissionsReducer,
+// MissionsReducer,
 //   RocketsReducer,
 // });
 

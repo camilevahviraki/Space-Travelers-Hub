@@ -1,8 +1,7 @@
 import React from 'react';
-import {InitState} from '../../__Mocks__/rockets';
+import { InitState } from '../rockets';
 
 function Rockets({ UpdatedRockets, getRockets }) {
-  
   const style1 = {
     backgroundColor: 'blue',
     color: 'white',
@@ -21,20 +20,20 @@ function Rockets({ UpdatedRockets, getRockets }) {
   };
 
   return (
-    <div className='rocket_page'>
-      {InitState.newRockets.map((spacexdata, id) => (
-        <div key={id} className='rocket_container'>
-         
-            <h2 className='rocket_title'>{spacexdata.rocket}</h2>
+    <div className="rocket_page">
+      {InitState.newRockets.map((spacexdata) => (
+        <div key={spacexdata.id} className="rocket_container">
 
-            <p className='desc_Rockets'>
-              {!spacexdata.reserverd? (
-                <span className='reserverd_R'>Not Reserved</span>
-              ) : (
-                <span className='reserverd_R'>Reserved</span>
-              )}
-            </p>
-           
+          <h2 className="rocket_title">{spacexdata.rocket}</h2>
+
+          <p className="desc_Rockets">
+            {!spacexdata.reserverd ? (
+              <span className="reserverd_R">Not Reserved</span>
+            ) : (
+              <span className="reserverd_R">Reserved</span>
+            )}
+          </p>
+
         </div>
       ))}
     </div>
