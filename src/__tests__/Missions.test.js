@@ -11,7 +11,7 @@ const output1 = {
     { id: 2, mission: 'mission3', reserverd: true },
   ],
 };
-// console.log('missions', MissionsReducer(initState, reserveMission(2)));
+
 describe('Join mission test', () => {
   test('Joining mission', () => {
     expect(MissionsReducer(InitState, reserveMission(2))).toEqual(output1);
